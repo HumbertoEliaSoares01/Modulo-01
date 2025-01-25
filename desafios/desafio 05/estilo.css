@@ -1,0 +1,30 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    background-color: #a8ad96;
+}
+body{
+    display: block;
+    align-items: center;
+    margin: 25px auto;
+    width: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+h1{
+    font-size: 28pt;
+    text-align: center;
+}
+li{
+    padding: 10px;
+    margin: 0px 50px;
+    font-size: 24pt;
+}
+img{
+    border-radius: 50%;
+    display: block;
+    margin: 0px 12%;
+}
+ul{
+    padding: 20px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercício 009</title>
+    <link rel="shortcut icon" href="../../Imagens/emoji coração.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1 style="border-bottom: 2px solid #000; margin: -10px 10px 10px 10px;">Mídias em HTML-5</h1> 
+    <h1>Imagem Dinâmica</h1>
+    <p>
+        Tente abrir esse site em diferentes dispositivos ou simplesmente aumente e diminua o tamanho do seu navegador.
+    </p>
+    <picture id="picture">
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML-5.</p>
+    <p style=
+        "border: 2px solid #000;
+        padding: 10px;">
+        <audio 
+        src="mp3/A Igreja do Diabo  bv000195.mp3" 
+        preload="metadata" controls autoplay>
+        </audio>
+        <span style="margin-left: 50px;">A Igreja do Diabo - Machado de Assis</span>
+    </p>
+    <p style=
+        "border: 2px solid #000;
+        padding: 10px;">
+        <audio
+            src="mp3/Henry David Thoreau A Desobediência Civil.mp3"
+            preload="metadata" controls autoplay>
+        </audio>
+        <span style="margin-left: 50px;">A Desobediência Civil - Henry David Thoreau</span>
+    </p>    
+    <p style=
+        "border: 2px solid #000;
+        padding: 10px;">
+        <audio
+            src="mp3/Um senhor muito velho.mp3"
+            preload="metadata" controls autoplay>
+        </audio>
+        <span style="margin-left: 50px;">Um senhor muito velho - Gabriel Garcia Marquez</span>
+    </p>
+</body>
+</html>

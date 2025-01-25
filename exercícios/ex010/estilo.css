@@ -1,0 +1,10 @@
+
+h1 {
+    font-size: 32pt; 
+    text-align: center;}
+h2 {font-size: 24pt;}
+p {font-size: 18pt;}
+body {
+    margin: -20px 20px 20px 20px; 
+    text-align: justify;
+}

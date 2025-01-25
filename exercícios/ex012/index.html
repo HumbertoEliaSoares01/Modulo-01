@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercício 012</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../Imagens/filmadora.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div id="localmente">
+        <h1>Inserindo vídeos hospedados localmente.</h1>
+        <p>Este vídeo está hosppedado no meu próprio servidor.</p>
+        <video width="500" controls class="local">
+            <source src="../../Vídeos/Samira.mp4" type="video/mp4">
+            <source src="../../Vídeos/Samira.webm" type="video/webm">
+            <source src="../../Vídeos/Samira.mkv" type="video/mkv">
+            <source src="../../Vídeos/Samira.ogg" type="video/ogg">
+            <p>Seu navegador não tem compatibilidade com reprodutor de vídeos.</p>
+        </video>
+    </div>
+    <div>
+        <p> Reproduzindo "mp4"
+            <video controls width="250" src="../../Vídeos/Samira.mp4"></video>
+            Reproduzindo "mkv"
+            <video controls width="250" src="../../Vídeos/Samira.mkv"></video>
+            Reproduzindo "webm"
+            <video controls width="250" src="../../Vídeos/Samira.webm"></video>
+            Reproduzindo "ogg"
+            <video controls width="250" src="../../Vídeos/Samira.ogv.crdownload"></video>
+        </p>
+</div>
+    <div>
+        <h1>Incorporando vídeos do Youtube</h1>
+        <iframe class="local" width="560" height="315" src="https://www.youtube.com/embed/_Gg04sZUTtk?si=DNuUBb0ERjJpAm9t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    
+    <div style="padding:75% 0 0 0;position:relative;">
+        <h2>Incorporando vídeos do Vimeo</h2>
+        <iframe 
+            src="https://player.vimeo.com/video/888260304?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" 
+            style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Samira (Copy)">
+        </iframe>        
+    </div>
+    <script src="https://player.vimeo.com/api/player.js"></script>                
+    <!-- 036 Incorporação de vídeos externos -->
+</body>
+</html>

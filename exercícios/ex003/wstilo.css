@@ -1,0 +1,35 @@
+
+body{ margin: auto auto auto 100px; }
+img{ 
+    margin: 10px 75px 10px 75px;
+}
+h1{font-size: 32pt; text-align: center;}
+p{ font-size: 20pt;}
+header{ 
+    margin-left: -80px; margin-right: 20px;
+    height: 100px; 
+    padding: 10px; 
+    border-bottom: 2px solid #000;}
+#iconArqchive{width: 30%; height: 30%;}    
+.pai{
+    height: 500px;
+    background-color: #efdb84;
+    display: flex;
+    flex-direction: row;
+/*    flex-wrap: wrap;        não altera a largura dos elementos filhos  */
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #6a4326; 
+}
+.filha{
+    background-color: #fff;
+    width: 350px; 
+    border: 2px solid #6a4326; 
+    display: block; 
+    -margin: 10px auto;
+}
+.avo{
+    width: 90%;
+    display: block;
+    margin: auto;
+}

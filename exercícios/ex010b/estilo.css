@@ -1,0 +1,43 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    background-color: #00e;
+}
+body{
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+header{
+    border-bottom: 2px solid #00e;
+    text-align: center;
+}
+h1{
+    font-size: 36pt;
+}
+h2{
+    font-size: 28pt;
+}
+p{
+    font-size: 20pt;
+}
+hr{
+    border-color: #00e;
+    width: 80%;
+}
+span{
+    font-size: 48pt; 
+    border: 2px solid #00e;
+    border-radius: 50%;
+    padding: 10px 30px;
+    color: #00e;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+li{
+    text-align: justify;
+    margin-left: 15%;
+}

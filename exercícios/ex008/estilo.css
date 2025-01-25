@@ -1,0 +1,18 @@
+html{
+    background-color: #efe0c2;
+}
+body{
+    background-color: #fff;
+    margin: 50px; 
+    text-indent: 25px;
+    padding: 20px;
+}
+h1{
+    font-size: 36pt; 
+    text-align: center; 
+    border-bottom: 2px solid #000;
+    padding: 10px;
+}
+h2{font-size: 24pt;}
+p{font-size: 18pt;}
+    

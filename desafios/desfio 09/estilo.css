@@ -1,0 +1,43 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    background-color: #ff4b05;
+}
+body{
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    width: 700px;
+    display: block;
+    border-radius: 10px;
+}
+iframe{
+    display: block;
+    margin: auto; 
+}
+img{
+    margin: 5px;
+    padding: 5px;
+    height: 90%; 
+}
+h1{
+    text-align: center;
+}
+span{
+    border-radius: 50%;
+    border: 2px solid #ff4b05;
+    padding: 10px;
+}
+div{
+    height: 450px;
+}
+.pai{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+.filha{
+    width: 250px; height: 150px;
+    border: 2px solid #ff4b05;
+}

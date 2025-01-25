@@ -1,0 +1,29 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    background-color: #928688;
+}
+body{
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+p{font-size: 18pt;}
+h1{font-size: 32pt;}
+h2{font-size: 28pt;}
+div {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #000;
+}
+.local{
+    display: block;
+    margin: auto;
+    padding: 10px;
+}

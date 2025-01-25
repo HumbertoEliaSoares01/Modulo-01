@@ -1,0 +1,18 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    background-color: #e6d867;
+}
+body{
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+h1 {font-size: 32pt; text-align: center;}
+h2 {font-size: 24pt;}
+p {font-size: 20pt;}
+body{margin: 10px 50px 10px 50px; text-align: justify;}
+picture{
+    display: block;
+    margin-left: 15%;
+}
